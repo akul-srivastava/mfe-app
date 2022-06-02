@@ -19,7 +19,7 @@ module.exports = {
       name: "app",
       filename: "remoteEntry.js",
       remotes: {
-        payment: "payment@http://payments-mfe-app.vercel.app/remoteEntry.js",
+        payment: "payment@https://payments-mfe-app.vercel.app/remoteEntry.js",
       },
     }),
     new HtmlWebpackPlugin({ template: "./public/index.html" }),
